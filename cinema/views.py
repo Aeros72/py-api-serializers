@@ -5,15 +5,17 @@ from cinema.models import (CinemaHall,
                            Movie,
                            MovieSession)
 
-from cinema.serializers import (GenreSerializer,
-                                ActorSerializer,
-                                CinemaHallSerializer,
-                                MovieSerializer,
-                                MovieListSerializer,
-                                MovieSessionSerializer,
-                                MovieSessionListSerializer,
-                                MovieRetrieveSerializer,
-                                MovieSessionRetrieveSerializer)
+from cinema.serializers import (
+    GenreSerializer,
+    ActorSerializer,
+    CinemaHallSerializer,
+    MovieSerializer,
+    MovieListSerializer,
+    MovieSessionSerializer,
+    MovieSessionListSerializer,
+    MovieRetrieveSerializer,
+    MovieSessionRetrieveSerializer
+)
 
 
 class GenreViewSet(viewsets.ModelViewSet):
